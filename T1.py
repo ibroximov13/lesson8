@@ -1,0 +1,5 @@
+fayl = open("sinov1.txt", "r")
+malumot = fayl.read().split("\n")
+fayl.close()
+malumot.reverse()
+print(malumot)
